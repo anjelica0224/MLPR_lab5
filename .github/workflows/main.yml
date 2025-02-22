@@ -13,6 +13,6 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: |
-          pip install numpy pandas scikit-learn jupyter
+          pip install numpy pandas scikit-learn wandb jupyter
       - name: Run test script
         run: python test_script.py
