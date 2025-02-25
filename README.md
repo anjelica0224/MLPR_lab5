@@ -58,13 +58,11 @@ This project implements distance-based classification for face clustering using 
    - **High K** → Low Variance, High Bias (Underfitting risk, oversimplified predictions).
   
 ## Plots & Results
-- WandB Dashboard(<img width="922" alt="image" src="https://github.com/user-attachments/assets/b99033c3-1b43-4f9a-ba0e-3beb98a8d6d6" />
-)
-- Clustered Faces(![image](https://github.com/user-attachments/assets/705e9efd-8a10-4788-b3af-f937e2db4a50)
-)
-)
-- Template Image Classification(![image](https://github.com/user-attachments/assets/a5480204-3b02-446f-8c02-1956c73e160b)
-)
+- WandB Dashboard<img width="922" alt="image" src="https://github.com/user-attachments/assets/b99033c3-1b43-4f9a-ba0e-3beb98a8d6d6" />
+
+- Clustered Faces![image](https://github.com/user-attachments/assets/705e9efd-8a10-4788-b3af-f937e2db4a50)
+- 
+- Template Image Classification![image](https://github.com/user-attachments/assets/a5480204-3b02-446f-8c02-1956c73e160b)
 
 ## Logging Findings to WandB
 All experiment results, graphs, and plots have been logged to Weights & Biases (WandB) for tracking and analysis.
