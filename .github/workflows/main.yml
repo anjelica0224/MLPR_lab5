@@ -14,5 +14,6 @@ jobs:
       - name: Install dependencies
         run: |
           pip install numpy pandas scikit-learn wandb jupyter
-      - name: Run Jupyter notebook
+      - name: Run notebook
+        run: jupyter execute distance-classification.ipynb
         
