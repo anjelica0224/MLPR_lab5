@@ -39,8 +39,7 @@ This project implements distance-based classification for face clustering using 
    - Helps in hyperparameter tuning (e.g., selecting the best K in KNN).
 
 5. **Bias-Variance in KNN:**
-   - **Low K** → High Variance, Low Bias (Overfitting risk, sensitive to noise).
-   - **High K** → Low Variance, High Bias (Underfitting risk, oversimplified predictions).
+   Variance reflects a model’s sensitivity to fluctuations in training data. A model with high variance adapts too closely to the training set, capturing noise rather than general patterns, leading to poor generalization. Bias, on the other hand, indicates how well the model identifies underlying trends in the data. A high-bias model oversimplifies patterns by making strong assumptions, potentially missing complexities in the dataset. KNN is considered a low-bias, high-variance model because it relies heavily on training data and does not impose strict assumptions about data distribution.
   
 ## Plots & Results
 - WandB Dashboard<img width="948" alt="image" src="https://github.com/user-attachments/assets/674b2ad7-d08d-4e73-b81b-fc75c9cbc9c2" /> <img width="882" alt="image" src="https://github.com/user-attachments/assets/21062c90-966d-4a14-8242-d64021bb6293" /> <img width="919" alt="image" src="https://github.com/user-attachments/assets/265599f2-1344-44d0-b5f1-44ccded4479f" />
