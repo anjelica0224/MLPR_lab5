@@ -12,8 +12,9 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: |
-          pip install numpy pandas scikit-learn wandb jupyter opencv-python matplotlib
+        run: pip install numpy pandas scikit-learn wandb jupyter opencv-python matplotlib
+      - name: Test images
+        run: python test-script.py
       - name: Run notebook
         run: jupyter execute distance-classification.ipynb
         env:
