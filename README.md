@@ -20,33 +20,18 @@ This project implements distance-based classification for face clustering using 
 
 3. **Explanation of Distance Metrics:**
    - **Euclidean Distance**: Measures the straight-line distance between two points.
-     
-     \[ d(p, q) = \sqrt{\sum_{i=1}^{n} (q_i - p_i)^2} \]
-     
      **Use Case:** Best for continuous data in low-dimensional space.
      
    - **Manhattan Distance**: Measures the sum of absolute differences between coordinates.
-     
-     \[ d(p, q) = \sum_{i=1}^{n} |q_i - p_i| \]
-     
      **Use Case:** Works well for high variance data or grid-based patterns.
      
    - **Minkowski Distance**: Generalization of Euclidean and Manhattan distances.
-     
-     \[ d(p, q) = \left(\sum_{i=1}^{n} |q_i - p_i|^p \right)^{1/p} \]
-     
      **Use Case:** Allows flexibility in tuning distance measurement.
      
    - **Cosine Similarity**: Measures the cosine of the angle between two vectors.
-     
-     \[ \cos(\theta) = \frac{\sum p_i q_i}{\sqrt{\sum p_i^2} \times \sqrt{\sum q_i^2}} \]
-     
      **Use Case:** Used for text classification and high-dimensional data.
      
    - **Mahalanobis Distance**: Accounts for correlations between variables.
-     
-     \[ d(p, q) = \sqrt{(p - q)^T S^{-1} (p - q)} \]
-     
      **Use Case:** Best for correlated data, outlier detection.
 
 4. **Role of Cross Validation:**
